@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.superclass{
+    display: inline;
+}
+
+.dynamicSection{
+    width: 50%;
+    /* height: 200%; */
+    display: inline-block;
+    position: relative;
+    /* left: 50%; */
+    background-color: rgb(245, 241, 234);
+}
+
+.fixedSection{
+    /* right: 50%; */
+    background-color: cadetblue;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    display: inline;
+    left: 50%;
+}
+
+#myImage{
+    display: block;
+    padding-left: 25%;
+    padding-top: 25%;
+    width: 350px;
+    height: 350px;
+}
+
+#downloadbutton{
+    background-color: black;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    /* bottom: 100%; */
+    margin-top: 4%;
+    margin-left: 75%;
+}
+
+.navigation{
+    padding-left: 90px;
+    padding-top: 10px;
+    font-family: monospace;
+    font-size: x-large;
+    color: hotpink;
+}
+
+a{
+    color: black;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+#mydescription{
+    padding-left: 12.5%;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+#myname{
+    padding-left: 12.5%;
+    padding-top: 100px;
+    font-family: monospace;
+    font-size: 75px;
+}
+
+
+#phone{
+    /* padding-left: 25%; */
+    padding-top: 20%;
+}
+
+.detail{
+    padding-left: 25%;
+    padding-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.buttons{
+    /* border-bottom: 50%; */
+    padding-left: 100px;
+    padding-top: 10%;
+}
+
+.button1{
+    width: 120px;
+    height: 120px;
+    margin-left: 20px;
+    margin-bottom: 29px;
+    background-color: blanchedalmond;
+    /* padding-left: 50px; */
+    /* padding-top: 20px; */
+    border-radius: 50%;
+    font-family: monospace;
+    font-size: x-large;
+}
+
+
+#projects{
+    background-color: cadetblue;
+}
+#skills{
+    background-color: chocolate;
+}
+#courses{
+    background-color: rgb(228, 161, 161);
+}
+
+.scroll_up{
+    position: fixed;
+    /* margin: 10px; */
+    left: 20px;
+    bottom: 20px;
+    /* padding-bottom: 10px; */
+}
+
+.edusection{
+    margin-top: 200px;
+    margin-left: 15%;
+    margin-bottom: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    /* border-spacing: ; */
+}
+h3{
+    padding-bottom: 40px;
+}
+.edutable{
+    margin-left: 15px;
+    margin-top: 15px;
+    
+}
+
+.projtable{
+    border-spacing: 20px;
+}
+
+.tabledata{
+    padding-left: 36px;
+}
+
+.projsection{
+    margin-top: 200px;
+    margin-left: 15%;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 100px; 
+}
+
+.skillsection{
+    margin-top: 200px;
+    margin-left: 15%;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 100px;
+}
+
+.skilltable{
+    margin-left: 25px;
+}
+
+.coursesection{
+    margin-top: 200px;
+    margin-left: 15%;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 100px;
+}
+
+.footer{
+    /* display: block; */
+    background-color: rgb(59, 58, 58);
+    width: 50%;
+    height: 25%;
+    /* margin-left: 25%; */
+    padding-left: 30%;
+    padding-top: 10%;
+    padding-right: 21%;
+    padding-bottom: 10%;
+}
+
+.footerlink{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-right: 10%;
+    font-size: x-large;
+    color: aliceblue;
+}
+
+
+
+
